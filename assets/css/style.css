@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	margin: 30px 0; 
+}
+
+.jumbotron {
+	background-image: url("../images/header.jpg"); 
+	background-position: center;
+	background-size: cover;
+}
+
+.img-fluid {
+	margin: 0 0 30px 0; 
+}
+
+.wordHolder {
+	margin: 30px 0 60px 0;
+	font-size: 40px;
+}
+
+.btn-dark {
+	background-color: #fb9fa4; 
+	border: none;
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.btn-dark:hover {
+	border: none;
+	background-color: #bcbcf2; 
+	color: white;
+}
+
+.btn-dark:visited {
+	border: none !important;
+}
+
